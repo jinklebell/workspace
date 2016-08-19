@@ -1,0 +1,572 @@
+
+2559-08-17 17:29:36
+
+Operating System
+  Name                        = Microsoft Windows 8.1 Pro
+  Version                     = 6.3.9600
+  Architecture                = 32bit
+  # CPUs                      = 4
+  Memory                      = 17049042944
+
+Node.js
+  Node.js Version             = 0.12.7
+  npm Version                 = 2.11.3
+
+Titanium CLI
+  CLI Version                 = 5.0.8
+
+Titanium SDK
+  SDK Version                 = 5.2.2.GA
+  SDK Path                    = D:\Program\Titanium\mobilesdk\win32\5.2.2.GA
+  Target Platform             = android
+
+Command
+  C:\Program Files (x86)\nodejs\node.exe C:\Users\DSP\.appcelerator\install\5.3.1\package\node_modules\titanium\lib\titanium.js build run --platform android --log-level trace --sdk 5.2.2.GA --project-dir D:\Program\Project\workspace\Appcelerator\PattaniMunicipality --target device --android-sdk D:\Program\Titanium\android-sdk-windows --device-id 2368871d --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 58799 --config-file C:\Users\DSP\AppData\Local\Temp\build-1471429771940.json --no-banner --project-dir D:\Program\Project\workspace\Appcelerator\PattaniMunicipality
+
+[DEBUG]  Detecting modules in D:\Program\Titanium\modules
+[DEBUG]  Detected android module: facebook 5.0.0 @ D:\Program\Titanium\modules\android\facebook\5.0.0
+[DEBUG]  Detected android module: ti.cloudpush 3.4.1 @ D:\Program\Titanium\modules\android\ti.cloudpush\3.4.1
+[DEBUG]  Detected android module: ti.map 2.3.6 @ D:\Program\Titanium\modules\android\ti.map\2.3.6
+[DEBUG]  Detected android module: ti.paint 2.0.3 @ D:\Program\Titanium\modules\android\ti.paint\2.0.3
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.10 @ D:\Program\Titanium\modules\commonjs\ti.cloud\3.2.10
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=test
+[INFO]   Found Titanium module id=ti.cloud version=3.2.10 platform=commonjs deploy-type=test path=D:\Program\Titanium\modules\commonjs\ti.cloud\3.2.10
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK Android directory: D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android
+[INFO]   Deploy type: test
+[INFO]   Building for target: device
+[INFO]   Building for device: 2368871d
+[INFO]   Targeting Android SDK API: 23
+[INFO]   Building for the following architectures: armeabi, armeabi-v7a, x86
+[INFO]   Signing with keystore: D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\dev_keystore (tidev)
+[DEBUG]  App ID: com.dsp.pattanimunicipality
+[DEBUG]  Classname: Pattanimunicipality
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Forcing rebuild: JavaScript files need to be re-encrypted
+[TRACE]  offline build file C:\Users\DSP\AppData\Local\Temp\build-9ca1d2fae6806b05342c58b804fd91e5f10afb7b.json
+[TRACE]  online 1
+[TRACE]  sending request {"json":{"username":"hitbell111@gmail.com","session":"fdddc3bd789988ebeac8e9dcff05ce9ef3ce6792 PboemN6GWETQzu6kLQJlJOfP80mzS4ZUw3RlB/QgSU6E/jLSjnLj/Y71FGwQB5TN4gGQF9z4DavZUWbVKrfw9W1NGMYd6Mwit31GCfZHb0A2K/lXgtuEcTTkRIWxXYhCYVF22/RkpKy/0ENKcXheQ8lIgDMfPLIC4Npaf3labztxfm5Ps8W5K1f64p1gFNXBaTpfyFndbVppvc3ApV7x9LL9ZHTC9/W0HtbeYenbsh1EVjVSS9XgGu10b2J6pl6UX4BQ1CbBDRuXYBr1OMexJo+MIgBEtxdCILOMb2B98pDDS1IueS3QP2qPEeycdA/++Ijg1ppMRJgPjqYzm0otnYtKmKlLsT92nFrKWN5W5aaju/w2/c45mVG1jyMdb0C95RdiaYbt+9Dygc3gwzF9D8QRQMr4faK9jzXqgeHaKtM4t99FmI8tMBjcKA9evjxlDSrS/qWDsc0OCboKyUdxzIboomkN7hMgnMK0RsqjqHxTj1IoV2NZX+qaeLUegFu/DHQTK4kUf0SPONOol4wmYyIwVH6YD9SVDtAWCgvRee4lkE2md91lGRcwfM2EgPqQQHR2x/c4nnLM6rIw3Mvb0bcQJ/sTVbyDP8wAmdNS3xFFgHwoPUziFGRo9l11RQVaGOni9P0T1db1WnLczicR0rnTc/ARun5/IlpTkSDfVnchsK1kAke6eY+MI7HqdKE0ly5kqOEdGIg2QxBte+thzrISJyHQSnIelnGXoZA1S/NQrWi8MojK3giY4+A8eFZhmHOqswlTtYvhyhb59Q8jCpn5y0MaHq+57dOKAt5fGQc=","ipaddress":"172.16.129.180","fingerprint":"1d14a3d5e7d710fdd9ff9d642c725a1f325f94c7","fingerprint_description":"Windows Machine ID: a3ed820d-18be-41bf-a4ee-5f7c4f515d33","guid":"d6b81862-8371-4573-9555-40daee2612ef","appid":"com.dsp.pattanimunicipality","name":"PattaniMunicipality","org_id":100110489,"deploytype":"test","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.dsp.pattanimunicipality</id>\n  <name>PattaniMunicipality</name>\n  <version>1.0</version>\n  <publisher>DSP</publisher>\n  <url>http://</url>\n  <description/>\n  <copyright>2559 by DSP</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>d6b81862-8371-4573-9555-40daee2612ef</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>\n    <plist>\n      <dict>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <manifest>\n      <application android:theme=\"@style/Theme.MyAppTheme\"/>\n    </manifest>\n  </android>\n  <mobileweb>\n    <precache/>\n    <splash>\n      <enabled>true</enabled>\n      <inline-css-images>true</inline-css-images>\n    </splash>\n    <theme>default</theme>\n  </mobileweb>\n  <modules>\n    <module platform=\"commonjs\">ti.cloud</module>\n  </modules>\n  <deployment-targets>\n    <target device=\"iphone\">false</target>\n    <target device=\"ipad\">false</target>\n    <target device=\"android\">true</target>\n    <target device=\"mobileweb\">true</target>\n    <target device=\"windows\">false</target>\n  </deployment-targets>\n  <sdk-version>5.2.2.GA</sdk-version>\n  <property name=\"appc-app-id\" type=\"string\">57a01fae13e4fe223a234915</property>\n  <property name=\"acs-authbase-url-development\" type=\"string\">***</property>\n  <property name=\"acs-base-url-development\" type=\"string\">***</property>\n  <property name=\"acs-oauth-secret-development\" type=\"string\">***</property>\n  <property name=\"acs-oauth-key-development\" type=\"string\">***</property>\n  <property name=\"acs-api-key-development\" type=\"string\">***</property>\n  <property name=\"acs-username-development\" type=\"string\">***</property>\n  <property name=\"acs-password-development\" type=\"string\">***</property>\n  <property name=\"acs-authbase-url-production\" type=\"string\">***</property>\n  <property name=\"acs-base-url-production\" type=\"string\">***</property>\n  <property name=\"acs-oauth-secret-production\" type=\"string\">***</property>\n  <property name=\"acs-oauth-key-production\" type=\"string\">***</property>\n  <property name=\"acs-api-key-production\" type=\"string\">***</property>\n  <property name=\"acs-username-production\" type=\"string\">***</property>\n  <property name=\"acs-password-production\" type=\"string\">***</property>\n  <property name=\"appc-org-id\" type=\"string\">100110489</property>\n  <property name=\"appc-creator-user-id\" type=\"string\">7c7a0e5b-26af-4da2-991a-c510e9fa002d</property>\n</ti:app>","modules":[{"id":"ti.cloud","platform":["commonjs"],"deployType":["test"],"modulePath":"D:\\Program\\Titanium\\modules\\commonjs\\ti.cloud\\3.2.10","version":"3.2.10","manifest":{"version":"3.2.10","description":"Appcelerator Cloud Services","author":"Dawson Toth, Jeff English, Jon Alter, Paul Lv, Michael Goff, and Pedro Enrique","license":"Appcelerator Commercial License","copyright":"Copyright (c) 2011-2014 by Appcelerator,  Inc.","name":"ti.cloud","moduleid":"ti.cloud","guid":"1056b5d2-2bb5-4339-b930-297637aeec4e","platform":"commonjs","minsdk":"2.1.0"},"native":false,"libFile":"D:\\Program\\Titanium\\modules\\commonjs\\ti.cloud\\3.2.10\\ti.cloud.js"}]},"gzip":true,"followAllRedirects":true,"url":"https://security.appcelerator.com/build-verify"}
+[TRACE]  result from /build-verify=> {"key":"hGG8IaJBzwGvwZEjVh/XoQ==","pepper":"D1Fjxv5xqzVRAub1uNkCeg==","hmacKey":"r6oSkBH4ArvBhbNZBeXJ4Q==","o":100110489,"u":"7c7a0e5b-26af-4da2-991a-c510e9fa002d","p":"free","i":"57b43c87c9bf4b092379d161","success":true}, err=null
+[INFO]   JavaScript files need to be encrypted
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources
+[DEBUG]  Ignoring D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\android
+[WARN]   Overwriting file D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\back_icon.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\Images\back_icon.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\back_icon.png
+[WARN]   Overwriting file D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\bg.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\Images\bg.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\bg.png
+[WARN]   Overwriting file D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\board.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\Images\board.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\board.png
+[WARN]   Overwriting file D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\complain.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\Images\complain.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\complain.png
+[WARN]   Overwriting file D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\home.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\Images\home.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\home.png
+[WARN]   Overwriting file D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\list_icon.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\Images\list_icon.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\list_icon.png
+[WARN]   Overwriting file D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\logo-footer.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\Images\logo-footer.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\logo-footer.png
+[WARN]   Overwriting file D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\logo.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\Images\logo.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\logo.png
+[WARN]   Overwriting file D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\menu.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\Images\menu.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\menu.png
+[WARN]   Overwriting file D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\news.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\Images\news.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\Images\news.png
+[WARN]   Overwriting file D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\KS_nav_ui.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\KS_nav_ui.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\KS_nav_ui.png
+[WARN]   Overwriting file D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\KS_nav_views.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\KS_nav_views.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\KS_nav_views.png
+[DEBUG]  Ignoring D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\mobileweb
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\android
+[WARN]   Overwriting file D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\appicon.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\android\appicon.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\appicon.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\android\default.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\drawable\background.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\android\images\res-long-land-hdpi\default.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\drawable-long-land-hdpi\background.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\android\images\res-long-land-ldpi\default.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\drawable-long-land-ldpi\background.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\android\images\res-long-port-hdpi\default.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\drawable-long-port-hdpi\background.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\android\images\res-long-port-ldpi\default.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\drawable-long-port-ldpi\background.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\android\images\res-notlong-land-hdpi\default.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\drawable-notlong-land-hdpi\background.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\android\images\res-notlong-land-ldpi\default.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\drawable-notlong-land-ldpi\background.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\android\images\res-notlong-land-mdpi\default.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\drawable-notlong-land-mdpi\background.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\android\images\res-notlong-port-hdpi\default.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\drawable-notlong-port-hdpi\background.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\android\images\res-notlong-port-ldpi\default.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\drawable-notlong-port-ldpi\background.png
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\android\images\res-notlong-port-mdpi\default.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\drawable-notlong-port-mdpi\background.png
+[DEBUG]  Copying D:\Program\Titanium\modules\commonjs\ti.cloud\3.2.10\ti.cloud.js
+[DEBUG]  Copying D:\Program\Titanium\modules\commonjs\ti.cloud\3.2.10\assets
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\platform\android\res\values\color.xml => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\values\color.xml
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\platform\android\res\values\customtheme.xml => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\values\customtheme.xml
+[DEBUG]  Copying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\Resources\appicon.png => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\drawable\appicon.png
+[INFO]   Processing JavaScript files
+[DEBUG]  Copying and minifying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\app.js => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\assets\app.js
+[DEBUG]  Copying and minifying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\board.js => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\assets\board.js
+[DEBUG]  Copying and minifying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\complain.js => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\assets\complain.js
+[DEBUG]  Copying and minifying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\index.js => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\assets\index.js
+[DEBUG]  Copying and minifying D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\Resources\news.js => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\assets\news.js
+[DEBUG]  Copying and minifying D:\Program\Titanium\modules\commonjs\ti.cloud\3.2.10\ti.cloud.js => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\assets\ti.cloud.js
+[INFO]   Encrypting JavaScript files: D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\titanium_prep.win32.exe "com.dsp.pattanimunicipality" "D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\assets" "app.js" "board.js" "complain.js" "index.js" "news.js" "ti.cloud.js" "_app_props_.json"
+[DEBUG]  Adding library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\kroll-v8.jar
+[DEBUG]  Adding library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-analytics.jar
+[DEBUG]  Adding dependency library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\aps-analytics.jar
+[DEBUG]  Adding library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-android.jar
+[DEBUG]  Adding dependency library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\jaxen-1.1.1.jar
+[DEBUG]  Adding dependency library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\ti-commons-codec-1.3.jar
+[DEBUG]  Adding dependency library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\kroll-common.jar
+[DEBUG]  Adding dependency library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\titanium.jar
+[DEBUG]  Adding library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-app.jar
+[DEBUG]  Adding library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-ui.jar
+[DEBUG]  Adding dependency library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\nineoldandroids-appc-2.4.0.jar
+[DEBUG]  Adding library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-filesystem.jar
+[DEBUG]  Adding library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-media.jar
+[DEBUG]  Adding library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-appcompat.jar
+[DEBUG]  Adding dependency library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\android-support-v4.jar
+[DEBUG]  Adding dependency library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\android-support-v7-appcompat.jar
+[DEBUG]  Adding library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-cardview.jar
+[DEBUG]  Adding dependency library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\cardview-v7-23.0.1.jar
+[DEBUG]  Adding library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-locale.jar
+[DEBUG]  Adding library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-network.jar
+[DEBUG]  Adding library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-xml.jar
+[DEBUG]  Unknown namespace platform.displaycaps, skipping
+[DEBUG]  Adding library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-platform.jar
+[DEBUG]  Adding library D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-gesture.jar
+[DEBUG]  Unknown namespace api, skipping
+[DEBUG]  Unknown namespace app.deploytype, skipping
+[DEBUG]  Unknown namespace ui.ios, skipping
+[INFO]   Writing D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets\app.json
+[INFO]   Extracting module resources: D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-analytics.res.zip
+[DEBUG]  Copying C:\Users\DSP\AppData\Local\Temp\116717-4064-kmm0mo\res\values\strings.xml => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-android.res.zip
+[DEBUG]  Merging C:\Users\DSP\AppData\Local\Temp\116717-4064-1kl7nfx\res\values\strings.xml => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-app.res.zip
+[DEBUG]  Merging C:\Users\DSP\AppData\Local\Temp\116717-4064-1hhunzl\res\values\strings.xml => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\values\strings.xm
+[INFO]   Extracting module resources: D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-filesystem.res.zip
+[DEBUG]  Merging C:\Users\DSP\AppData\Local\Temp\116717-9116-9avtrw\res\values\strings.xml => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\values\strings.xmll
+[INFO]   Extracting module resources: D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-media.res.zip
+[DEBUG]  Merging C:\Users\DSP\AppData\Local\Temp\116717-4064-dlxbr2\res\values\strings.xml => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-locale.res.zip
+[DEBUG]  Merging C:\Users\DSP\AppData\Local\Temp\116717-4064-1vea0su\res\values\strings.xml => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-network.res.zip
+[DEBUG]  Merging C:\Users\DSP\AppData\Local\Temp\116717-4064-1qdpbi3\res\values\strings.xml => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-xml.res.zip
+[DEBUG]  Merging C:\Users\DSP\AppData\Local\Temp\116717-4064-1d6ygdw\res\values\strings.xml => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-platform.res.zip
+[DEBUG]  Merging C:\Users\DSP\AppData\Local\Temp\116717-4064-fuerk1\res\values\strings.xml => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-gesture.res.zip
+[DEBUG]  Merging C:\Users\DSP\AppData\Local\Temp\116717-4064-2uqpei\res\values\strings.xml => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\values\strings.xml
+[DEBUG]  Removing old file: D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\.classpath
+[DEBUG]  Removing old file: D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\.gitignore
+[DEBUG]  Removing old file: D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\.project
+[DEBUG]  Removing old file: D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\AndroidManifest.xml
+[DEBUG]  Removing old file: D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\default.properties
+[DEBUG]  Removing old file: D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\java-sources.txt
+[DEBUG]  Copying template D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\templates\build\AppInfo.java => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\gen\com\dsp\pattanimunicipality\PattanimunicipalityAppInfo.java
+[DEBUG]  Copying template D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\templates\build\App.java => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\gen\com\dsp\pattanimunicipality\PattanimunicipalityApplication.java
+[DEBUG]  Copying template D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\templates\build\Activity.java => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\gen\com\dsp\pattanimunicipality\PattanimunicipalityActivity.java
+[DEBUG]  Copying template D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\templates\build\project => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\.project
+[DEBUG]  Copying template D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\templates\build\default.properties => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\default.properties
+[DEBUG]  Copying D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\templates\build\gitignore => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\.gitignore
+[DEBUG]  Copying D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\templates\build\classpath => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\.classpath
+[INFO]   No aidl files to compile, continuing
+[INFO]   Generating i18n files
+[DEBUG]  Merging en strings => D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\values\strings.xml
+[INFO]   Generating D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res\values\theme.xml
+[INFO]   Packaging application: D:\Program\Titanium\android-sdk-windows\build-tools\23.0.3\aapt.exe "package" "-f" "-m" "-J" "D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\gen" "-M" "D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\AndroidManifest.xml" "-A" "D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\assets" "-S" "D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\res" "-I" "D:\Program\Titanium\android-sdk-windows\platforms\android-23\android.jar" "-F" "D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat:android.support.v7.cardview" "-S" "C:\Users\DSP\AppData\Local\Temp\116717-4064-el8um2/res" "-S" "C:\Users\DSP\AppData\Local\Temp\116717-4064-iei1jl/res" "-S" "C:\Users\DSP\AppData\Local\Temp\116717-4064-eqi6jj/res"
+[INFO]   Building Java source files: C:\Program Files (x86)\Java\jdk1.6.0_45\bin\javac.exe "-J-Xmx1024M" "-encoding" "utf8" "-bootclasspath" "D:\Program\Titanium\android-sdk-windows\platforms\android-23\android.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\kroll-v8.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-analytics.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\aps-analytics.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-android.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\jaxen-1.1.1.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\ti-commons-codec-1.3.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\kroll-common.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\titanium.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-app.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-ui.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\nineoldandroids-appc-2.4.0.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-filesystem.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-media.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-appcompat.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\android-support-v4.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\android-support-v7-appcompat.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-cardview.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\cardview-v7-23.0.1.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-locale.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-network.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-xml.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-platform.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-gesture.jar;D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\lib\titanium-verify.jar;R.class;AssetCryptImpl.class;PattanimunicipalityActivity.class;PattanimunicipalityAppInfo.class;PattanimunicipalityApplication.class" "-d" "D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\java-sources.txt"
+[INFO]   Running dexer: C:\Program Files (x86)\Java\jdk1.6.0_45\bin\java.exe "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=D:\Program\Titanium\android-sdk-windows\platform-tools" "-jar" "D:\Program\Titanium\android-sdk-windows\build-tools\23.0.3\lib\dx.jar" "--dex" "--output=D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\classes.dex" "D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\classes" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\lib\titanium-verify.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\kroll-v8.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-analytics.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\aps-analytics.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-android.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\jaxen-1.1.1.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\ti-commons-codec-1.3.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\kroll-common.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\titanium.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-app.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-ui.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\nineoldandroids-appc-2.4.0.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-filesystem.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-media.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-appcompat.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\android-support-v4.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\android-support-v7-appcompat.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-cardview.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\cardview-v7-23.0.1.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-locale.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-network.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-xml.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-platform.jar" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-gesture.jar"
+[INFO]   Creating unsigned apk
+[DEBUG]  Processing D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\app.ap_
+[DEBUG]  Deflating AndroidManifest.xml
+[DEBUG]  Adding assets/Resources/Images/back_icon.png
+[DEBUG]  Adding assets/Resources/Images/bg.png
+[DEBUG]  Adding assets/Resources/Images/board.png
+[DEBUG]  Adding assets/Resources/Images/complain.png
+[DEBUG]  Adding assets/Resources/Images/home.png
+[DEBUG]  Adding assets/Resources/Images/list_icon.png
+[DEBUG]  Adding assets/Resources/Images/logo-footer.png
+[DEBUG]  Adding assets/Resources/Images/logo.png
+[DEBUG]  Adding assets/Resources/Images/menu.png
+[DEBUG]  Adding assets/Resources/Images/news.png
+[DEBUG]  Adding assets/Resources/KS_nav_ui.png
+[DEBUG]  Adding assets/Resources/KS_nav_views.png
+[DEBUG]  Adding assets/Resources/appicon.png
+[DEBUG]  Deflating assets/app.json
+[DEBUG]  Deflating assets/index.json
+[DEBUG]  Deflating res/anim/abc_fade_in.xml
+[DEBUG]  Deflating res/anim/abc_fade_out.xml
+[DEBUG]  Deflating res/anim/abc_grow_fade_in_from_bottom.xml
+[DEBUG]  Deflating res/anim/abc_popup_enter.xml
+[DEBUG]  Deflating res/anim/abc_popup_exit.xml
+[DEBUG]  Deflating res/anim/abc_shrink_fade_out_from_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_in_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_in_top.xml
+[DEBUG]  Deflating res/anim/abc_slide_out_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_out_top.xml
+[DEBUG]  Deflating res/color-v11/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Deflating res/color-v11/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Deflating res/color-v23/abc_color_highlight_material.xml
+[DEBUG]  Deflating res/color/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Deflating res/color/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Deflating res/color/abc_primary_text_disable_only_material_dark.xml
+[DEBUG]  Deflating res/color/abc_primary_text_disable_only_material_light.xml
+[DEBUG]  Deflating res/color/abc_primary_text_material_dark.xml
+[DEBUG]  Deflating res/color/abc_primary_text_material_light.xml
+[DEBUG]  Deflating res/color/abc_search_url_text.xml
+[DEBUG]  Deflating res/color/abc_secondary_text_material_dark.xml
+[DEBUG]  Deflating res/color/abc_secondary_text_material_light.xml
+[DEBUG]  Deflating res/color/switch_thumb_material_dark.xml
+[DEBUG]  Deflating res/color/switch_thumb_material_light.xml
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-long-land-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-land-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-port-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-port-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-notlong-land-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-land-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-land-mdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-mdpi-v4/background.png
+[DEBUG]  Deflating res/drawable-v21/abc_action_bar_item_background_material.xml
+[DEBUG]  Deflating res/drawable-v21/abc_btn_colored_material.xml
+[DEBUG]  Deflating res/drawable-v23/abc_control_background_material.xml
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Deflating res/drawable/abc_btn_borderless_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_check_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_colored_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_default_mtrl_shape.xml
+[DEBUG]  Deflating res/drawable/abc_btn_radio_material.xml
+[DEBUG]  Deflating res/drawable/abc_cab_background_internal_bg.xml
+[DEBUG]  Deflating res/drawable/abc_cab_background_top_material.xml
+[DEBUG]  Deflating res/drawable/abc_dialog_material_background_dark.xml
+[DEBUG]  Deflating res/drawable/abc_dialog_material_background_light.xml
+[DEBUG]  Deflating res/drawable/abc_edit_text_material.xml
+[DEBUG]  Deflating res/drawable/abc_item_background_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_item_background_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_background_transition_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_background_transition_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_ratingbar_full_material.xml
+[DEBUG]  Deflating res/drawable/abc_spinner_textfield_background_material.xml
+[DEBUG]  Deflating res/drawable/abc_switch_thumb_material.xml
+[DEBUG]  Deflating res/drawable/abc_tab_indicator_material.xml
+[DEBUG]  Deflating res/drawable/abc_text_cursor_material.xml
+[DEBUG]  Deflating res/drawable/abc_textfield_search_material.xml
+[DEBUG]  Adding res/drawable/appicon.png
+[DEBUG]  Adding res/drawable/background.png
+[DEBUG]  Adding res/drawable/btn_check_buttonless_on_64.png
+[DEBUG]  Adding res/drawable/btn_more_64.png
+[DEBUG]  Adding res/drawable/disclosure_64.png
+[DEBUG]  Deflating res/layout-v17/abc_alert_dialog_material.xml
+[DEBUG]  Deflating res/layout-v17/abc_dialog_title_material.xml
+[DEBUG]  Deflating res/layout-v17/abc_search_view.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_big_media.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_big_media_narrow.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_lines.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_media.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_part_chronometer.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_part_time.xml
+[DEBUG]  Deflating res/layout-v21/abc_screen_toolbar.xml
+[DEBUG]  Deflating res/layout-v21/titanium_ui_date_picker_spinner.xml
+[DEBUG]  Deflating res/layout-v21/titanium_ui_time_picker_spinner.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_title_item.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_up_container.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_view_list_nav_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_menu_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_mode_bar.xml
+[DEBUG]  Deflating res/layout/abc_action_mode_close_item_material.xml
+[DEBUG]  Deflating res/layout/abc_activity_chooser_view.xml
+[DEBUG]  Deflating res/layout/abc_activity_chooser_view_list_item.xml
+[DEBUG]  Deflating res/layout/abc_alert_dialog_material.xml
+[DEBUG]  Deflating res/layout/abc_dialog_title_material.xml
+[DEBUG]  Deflating res/layout/abc_expanded_menu_layout.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_checkbox.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_icon.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_radio.xml
+[DEBUG]  Deflating res/layout/abc_popup_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_screen_content_include.xml
+[DEBUG]  Deflating res/layout/abc_screen_simple.xml
+[DEBUG]  Deflating res/layout/abc_screen_simple_overlay_action_mode.xml
+[DEBUG]  Deflating res/layout/abc_screen_toolbar.xml
+[DEBUG]  Deflating res/layout/abc_search_dropdown_item_icons_2line.xml
+[DEBUG]  Deflating res/layout/abc_search_view.xml
+[DEBUG]  Deflating res/layout/abc_select_dialog_material.xml
+[DEBUG]  Deflating res/layout/notification_media_action.xml
+[DEBUG]  Deflating res/layout/notification_media_cancel_action.xml
+[DEBUG]  Deflating res/layout/notification_template_big_media.xml
+[DEBUG]  Deflating res/layout/notification_template_big_media_narrow.xml
+[DEBUG]  Deflating res/layout/notification_template_lines.xml
+[DEBUG]  Deflating res/layout/notification_template_media.xml
+[DEBUG]  Deflating res/layout/notification_template_part_chronometer.xml
+[DEBUG]  Deflating res/layout/notification_template_part_time.xml
+[DEBUG]  Deflating res/layout/select_dialog_item_material.xml
+[DEBUG]  Deflating res/layout/select_dialog_multichoice_material.xml
+[DEBUG]  Deflating res/layout/select_dialog_singlechoice_material.xml
+[DEBUG]  Deflating res/layout/support_simple_spinner_dropdown_item.xml
+[DEBUG]  Deflating res/layout/titanium_tabgroup.xml
+[DEBUG]  Deflating res/layout/titanium_ui_checkbox.xml
+[DEBUG]  Deflating res/layout/titanium_ui_date_picker_spinner.xml
+[DEBUG]  Deflating res/layout/titanium_ui_edittext.xml
+[DEBUG]  Deflating res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG]  Deflating res/layout/titanium_ui_list_item.xml
+[DEBUG]  Deflating res/layout/titanium_ui_spinner.xml
+[DEBUG]  Deflating res/layout/titanium_ui_switchcompat.xml
+[DEBUG]  Deflating res/layout/titanium_ui_time_picker_spinner.xml
+[DEBUG]  Deflating resources.arsc
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\kroll-v8.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-analytics.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\aps-analytics.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-android.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\jaxen-1.1.1.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\ti-commons-codec-1.3.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\kroll-common.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\titanium.jar
+[DEBUG]  Deflating org/appcelerator/titanium/build.properties
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/background.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_100.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_64.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_100.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_64.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-app.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-ui.jar
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/polling.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/polling.min.js
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\nineoldandroids-appc-2.4.0.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-filesystem.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-media.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-appcompat.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\android-support-v4.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\android-support-v7-appcompat.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-cardview.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\cardview-v7-23.0.1.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-locale.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-network.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-xml.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-platform.jar
+[DEBUG]  Processing D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\modules\titanium-gesture.jar
+[DEBUG]  Adding classes.dex
+[INFO]   Processing D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\src
+[DEBUG]  Adding lib/armeabi/libkroll-v8.so
+[DEBUG]  Adding lib/armeabi/libstlport_shared.so
+[DEBUG]  Adding lib/armeabi/libtiverify.so
+[DEBUG]  Adding lib/armeabi-v7
+[INFO]   Signing apk: C:\Program Files (x86)\Java\jdk1.6.0_45\bin\jarsigner.exe "-sigalg" "MD5withRSA" "-digestalg" "SHA1" "-keystore" "D:\Program\Titanium\mobilesdk\win32\5.2.2.GA\android\dev_keystore" "-storepass" "*******" "-signedjar" "D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\PattaniMunicipality.apk" "D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build
+[INFO]   Signing apk: C:\Program File
+[INFO]   Aligning zip file: D:\Program\Titanium\android-sdk-windows\build-tools\23.0.3\zipalign.exe "-v" "4" "D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\PattaniMunicipality.apk" "D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\PattaniMunicipality.apkz"oject\workspace\Appcelerator\PattaniMunicipality\build\android\bin\app-unsigned.apk" "tidev"
+[INFO]   Aligning zip file: D:\Program\Titanium\android-sdk-windows\build-tools\23.0.3\zipalign.exe "-v" "4" "D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\PattaniMunicipality.apk" "D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\PattaniMunicipality.apkz"[INFO]   Writing build manifest: D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\build-manifest.json
+[INFO]   Making sure the adb server is running
+[INFO]   Installing apk: D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\PattaniMunicipality.apk
+[INFO]   Installing app on device: SM-N9005
+[TRACE]  Checking if package manager service is started
+[TRACE]  Package manager has started
+[TRACE]  Executing: D:\Program\Titanium\android-sdk-windows\platform-tools\adb.exe -s 2368871d install -r D:\Program\Project\workspace\Appcelerator\PattaniMunicipality\build\android\bin\PattaniMunicipality.apk
+[INFO]   App successfully installed
+[INFO]   Starting app: com.dsp.pattanimunicipality/.PattanimunicipalityActivity
+[DEBUG]  Trying to start the app...
+[INFO]   Application pid: 10186
+-- Start application log -----------------------------------------------------
+[INFO]   Project built successfully in 40s 223ms

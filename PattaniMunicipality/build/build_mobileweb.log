@@ -1,0 +1,24 @@
+
+2559-08-11 13:17:26
+
+Operating System
+  Name                        = Microsoft Windows 8.1 Pro
+  Version                     = 6.3.9600
+  Architecture                = 32bit
+  # CPUs                      = 4
+  Memory                      = 17049042944
+
+Node.js
+  Node.js Version             = 0.12.7
+  npm Version                 = 2.11.3
+
+Titanium CLI
+  CLI Version                 = 5.0.8
+
+Titanium SDK
+  SDK Version                 = 5.2.2.GA
+  SDK Path                    = D:\Program\Titanium\mobilesdk\win32\5.2.2.GA
+  Target Platform             = mobileweb
+
+Command
+  C:\Program Files (x86)\nodejs\node.exe C:\Users\DSP\.appcelerator\install\5.3.1\package\node_modules\titanium\lib\titanium.js build run --platform mobileweb --log-level trace --sdk 5.2.2.GA --project-dir D:\Program\Project\workspace\Appcelerator\PattaniMunicipality --deploy-type development --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 50326 --config-file C:\Users\DSP\AppData\Local\Temp\build-1470896243671.json --no-banner --project-dir D:\Program\Project\workspace\Appcelerator\PattaniMunicipality

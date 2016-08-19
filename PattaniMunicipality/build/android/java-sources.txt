@@ -1,0 +1,8 @@
+"D:/Program/Project/workspace/Appcelerator/PattaniMunicipality/build/android/gen/android/support/v7/appcompat/R.java"
+"D:/Program/Project/workspace/Appcelerator/PattaniMunicipality/build/android/gen/android/support/v7/cardview/R.java"
+"D:/Program/Project/workspace/Appcelerator/PattaniMunicipality/build/android/gen/com/dsp/pattanimunicipality/AssetCryptImpl.java"
+"D:/Program/Project/workspace/Appcelerator/PattaniMunicipality/build/android/gen/com/dsp/pattanimunicipality/PattanimunicipalityActivity.java"
+"D:/Program/Project/workspace/Appcelerator/PattaniMunicipality/build/android/gen/com/dsp/pattanimunicipality/PattanimunicipalityAppInfo.java"
+"D:/Program/Project/workspace/Appcelerator/PattaniMunicipality/build/android/gen/com/dsp/pattanimunicipality/PattanimunicipalityApplication.java"
+"D:/Program/Project/workspace/Appcelerator/PattaniMunicipality/build/android/gen/com/dsp/pattanimunicipality/R.java"
+"D:/Program/Project/workspace/Appcelerator/PattaniMunicipality/build/android/gen/ti/modules/titanium/ui/R.java"

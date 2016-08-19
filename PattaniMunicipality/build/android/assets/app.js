@@ -1,0 +1,1 @@
+var index_win=Ti.UI.createWindow({backgroundColor:"#DFDFDF",theme:"Theme.AppCompat.NoTitleBar.Fullscreen",touchEnabled:!1,url:"index.js"});index_win.open();
